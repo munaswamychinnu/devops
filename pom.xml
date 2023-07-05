@@ -30,27 +30,22 @@
   </dependencies>
   
 <distributionManagement>
-		 
-		 <snapshotRepository>
-		    <id>nexusRepo</id>
-		    <url>http://34.207.165.139:8081/repository/devops-SNAPSHOT//</url>
-		 </snapshotRepository>
-		
-		<repository>
-		    <id>nexusRepo</id>
-		    <url>http://34.207.165.139:8081/repository/devops-release//</url>
-		</repository>
-		
-  	</distributionManagement>
+	<snapshotRepository>
+		<id>nexusRepo</id>
+		<url>http://34.207.165.139:8081/repository/devops-SNAPSHOT//</url>
+	</snapshotRepository>
+	<repository>
+		<id>nexusRepo</id>
+		<url>http://34.207.165.139:8081/repository/devops-release//</url>
+	</repository>
 
-		 </snapshotRepository>
-		
-		<repository>
-		    <id>nexusRepo</id>
-		    <url>http://54.178.74.89:8081/repository/sample-releases/</url>
-		</repository>
-		
-  	</distributionManagement>
+</distributionManagement>
+</snapshotRepository>
+	<repository>
+		<id>nexusRepo</id>
+		<url>http://54.178.74.89:8081/repository/sample-releases/</url>
+	</repository>
+</distributionManagement>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
